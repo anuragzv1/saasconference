@@ -5,11 +5,11 @@ $url .= str_replace(array('simple-conference.php', basename(__FILE__)), '', $_SE
 
 
 return [
-    'accountSid' => 'AC838d68b98c8022ff6e1ffa4999dbcfa0',
-    'authToken' => '0ea366c2e4dc51e81d96c53bb8a4056a',
-    'appSid' => 'AP584f9517a301983966f88ea7dd8a474b',
+    'accountSid' => 'ACXXXXXXXXX',
+    'authToken' => 'XXXXXXXXXX',
+    'appSid' => 'APXXXXXXXXXX',
     'numbers' => [
-            'GB' => '+16829706764',
+            'GB' => '+XXXXXXXX',
     ],
     'sounds' => [
             'wait' => [ 'local' => 'sounds/wait.wav', 'remote' => "{$url}/sounds/wait.wav" ],
