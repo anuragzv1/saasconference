@@ -8,7 +8,6 @@ Please make sure you add a [TWiML app](https://www.twilio.com/user/account/voice
 
 ## How to dial in
 
-* Call your Twilio Number
 * Go to your website and use the Twilio javascript client
 
 ## Setup
@@ -17,8 +16,6 @@ Please make sure you add a [TWiML app](https://www.twilio.com/user/account/voice
 * [Buy a number](https://www.twilio.com/user/account/voice/phone-numbers) from Twilio and set it to use your new TwiML app.
 
 ![image](twiml-app.png)
-
-* Call your new number, and enter any number and ask other people to enter the same number
 
 
 ## Browser Connection Setup
@@ -33,7 +30,7 @@ Please make sure you add a [TWiML app](https://www.twilio.com/user/account/voice
 * ```./ngrok http 8000``` 
 * use the https url of ngrok as mydomain.com. http will not work.
 * make sure a MySQL server is running , Mysql.sql file is included in the build, import it ,to change db config go to /php/db.php
-* Go to `http://mydomain.com/index.php` and Logi into or create a room , Share with your friends.
+* Go to `http://mydomain.com/index.php` and Login into and press the green call button or create a room , Share with your friends.
 * Tested and working on MacOS Mojave 14.x on Google chrome.
 * For any bugs/advices please raise an issue.
 
